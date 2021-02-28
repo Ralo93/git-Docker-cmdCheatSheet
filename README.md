@@ -28,10 +28,10 @@
 > mv newColumn.csv /data/data/interim/
 
 ### drop columns:
-> >file.csv csvcut -C columnname
+> file.csv csvcut -C columnname
 
 ### sqlQuery:
-> >file.csv csvsql --query "SELECT * FROM stdin WHERE Age > 70 AND Survived = 1" > newFile.csv
+> file.csv csvsql --query "SELECT * FROM stdin WHERE Age > 70 AND Survived = 1" > newFile.csv
 
 ### mering columns:
 > file.csv csvsql --query "SELECT id, firstName || ' ' || lastName AS full_name, born, city FROM stdin" > newFile.csv

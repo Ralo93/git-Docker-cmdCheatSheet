@@ -4,7 +4,7 @@
 > docker run -it -v ${PWD}:/<dockerRepo(data)> datascienceworkshops/data-science-at-the-command-line <p>
   
 ### Reentering Docker:
-> docker exec -it dockerId bash
+> docker exec -it dockerId bash (a4e1dd4dfbb3)
   
 ### for seeing installed python packages in docker:
 > docker exec container ID pip list

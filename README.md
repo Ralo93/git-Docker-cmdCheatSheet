@@ -7,7 +7,7 @@
 > docker exec -it dockerId bash (a4e1dd4dfbb3)
   
 ### for seeing installed python packages in docker:
-> docker exec container ID pip list
+> docker exec container ID pip3.6 list
 
 ### show docker images:
 > docker ps -a

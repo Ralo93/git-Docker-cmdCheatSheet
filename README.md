@@ -7,7 +7,7 @@ docker run -it -v ${PWD}:/<dockerRepo(data)> datascienceworkshops/data-science-a
 docker run -it -v ${PWD}:/data datascienceworkshops/data-science-at-the-command-line <p>
   
 ### for seeing installed python packages in docker:
-docker exec <<container ID>> pip list
+docker exec /<container ID/> pip list
   
  
 # Git

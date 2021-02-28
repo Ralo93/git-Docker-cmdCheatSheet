@@ -33,7 +33,7 @@
 ### sqlQuery:
 > file.csv csvsql --query "SELECT * FROM stdin WHERE Age > 70 AND Survived = 1" > newFile.csv
 
-### mering columns:
+### merging columns:
 > file.csv csvsql --query "SELECT id, firstName || ' ' || lastName AS full_name, born, city FROM stdin" > newFile.csv
 
 ### copying folder structure into new project:

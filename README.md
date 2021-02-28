@@ -41,3 +41,9 @@
 
 ### remove dir:
 rm -r drake
+
+# Kaggle
+
+### search&download kaggle datasets: 
+kaggle datasets list -s fifa (after configuring kaggle.json) <br>
+kaggle datasets download -d datasetName

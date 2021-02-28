@@ -9,7 +9,7 @@
 ### for seeing installed python packages in docker:
 > docker exec container ID pip list
 
-## show docker images:
+### show docker images:
 > docker ps -a
   
  
@@ -19,7 +19,7 @@
 > git diff --cached --name-only --diff-filter=A <p>
 
 ### Usual git stuff:
-> git branch, git branch -d BranchName, git branch -M newBranchName
+> git branch, git branch -d BranchName, git branch -M newBranchName, git tree, 
   
   
 # Cmd
@@ -35,3 +35,9 @@
 
 ### mering columns:
 > file.csv csvsql --query "SELECT id, firstName || ' ' || lastName AS full_name, born, city FROM stdin" > newFile.csv
+
+### copying folder structure into new project:
+> cp -r ./structure ./newProject
+
+### remove dir:
+rm -r drake

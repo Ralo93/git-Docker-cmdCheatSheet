@@ -19,7 +19,7 @@
 > git diff --cached --name-only --diff-filter=A <p>
 
 ### Usual git stuff:
-> git branch, git branch -d BranchName, git branch -M newBranchName, git tree, 
+> git branch, git branch -d BranchName, git branch -M newBranchName, git tree, git add ., git commit -m "message"., git push
   
   
 # Cmd
